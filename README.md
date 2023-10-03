@@ -29,7 +29,4 @@ Background services are often used for tasks like data synchronization, file dow
 A bound service is a service that allows other components (such as activities) to bind to it and interact with it through interprocess communication (IPC). It provides a client-server interface for communication.
 Bound services are often used when multiple components within an app need to share data or functionality with a central service.
 
-**Intent Service:**
 
-An Intent Service is a type of background service that is designed to handle one-time tasks on a separate thread. It is typically used for tasks that can be triggered by sending an Intent.
-Intent services are useful for tasks like processing network requests, handling database transactions, or performing background calculations.
